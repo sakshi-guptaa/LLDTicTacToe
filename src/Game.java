@@ -30,6 +30,7 @@ public class Game {
     }
 
     public String startgame(){
+        this.gameBoard.printBoard();
         boolean noWinner = true;
 
         while(noWinner){
